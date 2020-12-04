@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 # Global variables (WIP)
 GAMEID = '303444'
 GAMEURL = str(f'https://webdiplomacy.net/board.php?gameID={GAMEID}')
-TOKEN = 'NzI2Nzg0MTI1MDk2Mjk2NDY5.XviUxA.PXOqO9RaB4fvfRG2wUg-k1jiUbI'
+TOKEN = Null
 bot = commands.Bot(command_prefix='!')
 
 bot.remove_command('help')
